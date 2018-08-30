@@ -5,22 +5,22 @@ A cheat sheet for general software installations and other frequently occurring 
 [Copied from here](https://github.com/enocom/vim-config/blob/master/vimrc)
 Put the following lines in .vimrc
 
-set autowrite                  " write before ':make' commands
-set wildmenu                   " show possible completions on command line
-set backspace=indent,eol,start " configure backspace behavior
-set textwidth=80               " set width of all text
-set noswapfile                 " disable swap files
-set nowb                       " disable writing backup
-set smartcase                  " ignore case if lower, otherwise match case
-set splitbelow                 " split panes on the bottom
-set splitright                 " split panes to the right
-set autoindent                 " indent line based on previous line
-set smartindent                " add extra indent based on previous line
-set shiftwidth=4               " assume 4 spaces for a tab
-set expandtab                  " expand those tabs to spaces
-set tabstop=4                  " number of spaces a tab counts for in file
-set softtabstop=4              " number of spaces a tab counts for editing
-set smarttab                   " translate tabs into shiftwidth worth of spaces
+set autowrite                  " write before ':make' commands<br>
+set wildmenu                   " show possible completions on command line<br>
+set backspace=indent,eol,start " configure backspace behavior<br>
+set textwidth=80               " set width of all text<br>
+set noswapfile                 " disable swap files<br>
+set nowb                       " disable writing backup<br>
+set smartcase                  " ignore case if lower, otherwise match case<br>
+set splitbelow                 " split panes on the bottom<br>
+set splitright                 " split panes to the right<br>
+set autoindent                 " indent line based on previous line<br>
+set smartindent                " add extra indent based on previous line<br>
+set shiftwidth=4               " assume 4 spaces for a tab<br>
+set expandtab                  " expand those tabs to spaces<br>
+set tabstop=4                  " number of spaces a tab counts for in file<br>
+set softtabstop=4              " number of spaces a tab counts for editing<br>
+set smarttab                   " translate tabs into shiftwidth worth of spaces<br>
 
 ## Installing required cuda drivers and library to run deeplearning models on gpu
 1. Install cuda driver using the script given here https://cloud.google.com/compute/docs/gpus/add-gpus
