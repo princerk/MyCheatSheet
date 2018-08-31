@@ -18,5 +18,6 @@ https://github.com/princerk/vim-config/blob/master/vimrc
 ## Installing python3-dev
 sudo apt-get install python3-dev
 
-
+## Give a user read write permission
+https://askubuntu.com/questions/487527/give-specific-user-permission-to-write-to-a-folder-using-w-notation
 
