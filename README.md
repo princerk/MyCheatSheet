@@ -21,3 +21,18 @@ sudo apt-get install python3-dev
 ## Give a user read write permission
 https://askubuntu.com/questions/487527/give-specific-user-permission-to-write-to-a-folder-using-w-notation
 
+## Run jupyter-notebook on cloud machine
+1. Open a port 8888 on machine
+2. install jupyter and do the modify config
+```cmd
+$ jupyter-notebook --generate-config
+```
+
+Open jupyter config file and add following lines at the end
+
+```cmd
+c = get_config()
+c.NotebookApp.ip = '0.0.0.0'
+c.NotebookApp.port = 8888
+c.NotebookApp.open_browser = False
+```
