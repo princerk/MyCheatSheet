@@ -12,11 +12,9 @@ https://github.com/princerk/vim-config/blob/master/vimrc
 
 ## Setting virtual environment for python3
 
-1. sudo apt-get install virtualenv -y
-2. virtualenv -p python3 venv
-
-## Installing python3-dev
-sudo apt-get install python3-dev
+1. sudo apt-get install python3-dev
+2. sudo apt-get install virtualenv -y
+3. virtualenv -p python3 venv
 
 ## Give a user read write permission
 https://askubuntu.com/questions/487527/give-specific-user-permission-to-write-to-a-folder-using-w-notation
@@ -36,3 +34,6 @@ c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.port = 8888
 c.NotebookApp.open_browser = False
 ```
+
+## Transfer learning using keras
+https://stackoverflow.com/questions/41378461/how-to-use-models-from-keras-applications-for-transfer-learnig
