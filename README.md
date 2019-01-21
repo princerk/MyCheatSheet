@@ -37,3 +37,6 @@ c.NotebookApp.open_browser = False
 
 ## Transfer learning using keras
 https://stackoverflow.com/questions/41378461/how-to-use-models-from-keras-applications-for-transfer-learnig
+
+## Supervisor commands
+http://www.onurguzel.com/supervisord-restarting-and-reloading/
