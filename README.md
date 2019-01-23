@@ -40,3 +40,21 @@ https://stackoverflow.com/questions/41378461/how-to-use-models-from-keras-applic
 
 ## Supervisor commands
 http://www.onurguzel.com/supervisord-restarting-and-reloading/
+
+## Generate ssh keys
+check if you have already ssh key generated.
+```cmd
+cat ~/.ssh/id_ras.pub
+```
+Generate if not present already.
+
+```cmd
+cd ~
+ssh-keygen -t rsa
+```
+access public key at ~/.ssh/id_rsa.pub
+
+```cmd
+cat ~/.ssh/id_rsa.pub
+```
+
